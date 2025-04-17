@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-blue-100 p-8">
+
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+        <h1 class="text-5xl font-bold text-black-800 text-center">Being a Linemen is Cool</h1>
+        <!-- Jason Kelce Highlights -->
+            <div class="p-4 rounded-lg shadow">
+                <h2 class="text-3xl text-black-700 text-center" >Jason Kelce Highlights</h2>
+                <div class="aspect-w-16 aspect-h-9 rounded-lg">
+                    <iframe width="600" height="355" src="https://www.youtube.com/embed/AqNc5u58tEU?si=5lZbw4nKe0lzVPJd" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen style="display: block; margin-left: auto; margin-right: auto;"></iframe>
+                </div>
+                <br>
+                <img src="https://images.radio.com/aiu-media/GettyImages1437759376-5df36db1-275c-4fd3-9978-0a58dd483362.jpg" alt="Batman Kelce" width="700" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+
+        <!-- Jason Kelce Info -->
+        <h2 class="text-3xl text-gray-700" style="color: rgb(0, 0, 0);">Jason Kelce</h2>
+        <ul style="list-style-type: square; padding-left: 20px;">
+            <li>Personal
+                <ol style="list-style-type:decimal; padding-left: 30px;">
+                    <li>37 Years Old</li>
+                    <li>Born in Ohio</li>
+                    <li>Wife and 4 daughters</li>
+                </ol>
+            </li>
+            <li>Metrics
+                <ol style="list-style-type:decimal; padding-left: 30px;">
+                    <li>6'3"</li>
+                    <li>282 lbs</li>
+                </ol>
+            </li>
+            <li>Career
+                <ol style="list-style-type:decimal; padding-left: 30px;">
+                    <li>13 Seasons</li>
+                    <li>7 Pro Bowls</li>
+                    <li>1 Super Bowl</li>
+                </ol>
+            </li>
+        </ul>
+                
+
+
+        <!-- Tableau Embed -->
+        <div class="bg-white p-4 rounded-lg shadow mb-8">
+            <h2 class="text-3xl text-grey-700">Interactive Tableau</h2>
+            <div class='tableauPlaceholder' id='viz1744757100602'>
+                <noscript>
+                    <a href='#'><img alt='NFL Teams by County' 
+                        src='https://public.tableau.com/static/images/US/USCountiesNFLMap/NFLTeamsCountyMap/1_rss.png' /></a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='name' value='USCountiesNFLMap/NFLTeamsCountyMap' />
+                    <param name='toolbar' value='yes' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1744757100602');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width = '100%';
+                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        </div>
+
+        <!-- Explore More Links -->
+        <h2 class="text-5xl text-center">Explore More</h2>
+        <div class="flex flex-col md:flex-row justify-center gap-8">
+            <a href="root/about.html" class="text-blue-800 text-3xl hover:text-blue-600">Resume</a>
+            <a href="webapp.html" class="text-blue-800 text-3xl hover:text-blue-600">Play a Game</a>
+            <a href="#"class="text-blue-800 text-3xl hover:text-blue-600">Back to Top</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

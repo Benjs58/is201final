@@ -1,0 +1,9 @@
+h1,h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    background-color: rgb(244, 154, 154);
+    color: black;
+}
+ul, ol, li{
+    font-size: x-large !important;
+}
